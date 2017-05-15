@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1492519277 source:c:\users\rafael\desktop\ifb\pc1\struct\lista1eda\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+
+1492518924 c:\users\rafael\desktop\ifb\pc1\struct\lista1eda\listaencadeada.h
+	<stdio.h>
+	<stdlib.h>
+
+1491962623 source:c:\users\rafael\desktop\ifb\pc1\struct\lista1eda\listaencadeada.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+
+1492519087 source:c:\users\rafael\desktop\ifb\pc1\struct\lista1eda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+	"ListaEncadeada.h"
+
+1491944614 c:\users\rafael\desktop\ifb\pc1\struct\lista1eda\lista.h
+	<stdio.h>
+	<stdlib.h>
+

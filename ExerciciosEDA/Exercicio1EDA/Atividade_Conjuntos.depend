@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1490041917 source:c:\users\rafael\desktop\ifb\pc1\struct\atividade_conjuntos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BibConjunto.h"
+
+1490040619 c:\users\rafael\desktop\ifb\pc1\struct\atividade_conjuntos\bibconjunto.h
+	<stdio.h>
+	<stdlib.h>
+
+1489963856 c:\users\rafael\desktop\ifb\pc1\struct\atividade_conjuntos\bibconjunto.c
+	"BibConjunto.h"
+	<stdio.h>
+
+1490037782 source:c:\users\rafael\desktop\ifb\pc1\struct\atividade_conjuntos\bibconjunto.h
+	<stdio.h>
+	<stdlib.h>
+
+1490045294 source:c:\users\rafael\desktop\ifb\pc1\struct\atividade_conjuntos\bibconjunto.c
+	<stdio.h>
+	<stdlib.h>
+	"BibConjunto.h"
+
