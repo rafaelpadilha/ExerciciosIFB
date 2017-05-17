@@ -4,11 +4,20 @@ package folhadepagamento;
  *
  * @author RAFAEL PADILHA
  */
-public class ContraCheque extends Professor {
+public class ContraCheque {
 
     private double valor_HoraAula;
     private int qtd_HoraAulaSemanal;
     private int qtd_HANoturno;
+    private Professor professor;
+    
+    public void setProfessor(Professor prof){
+        this.professor=prof;
+    }
+    
+    public Professor getProfessor(){
+        return this.professor;
+    }
 
     public void setValorHorasAula(double vlr) {
         this.valor_HoraAula = vlr;
@@ -56,7 +65,8 @@ public class ContraCheque extends Professor {
     }
 
     public double calcular_salarioIRPF() {
-        return calcular_RendaBruta() - calcular_descontoINSS() - this.dependentes * 189.59;
+        int dep = this.professor.getDependetes();
+        return calcular_RendaBruta() - calcular_descontoINSS() - dep * 189.59;
     }
 
     public double calcular_descontoIRPF() {
@@ -87,14 +97,5 @@ public class ContraCheque extends Professor {
         return calcular_RendaBruta() - calcular_descontoINSS() - calcular_descontoIRPF() - calcular_SVC();
     }
     
-    public void clear(){
-        this.ctps=null;
-        this.dependentes=0;
-        this.formacao=null;
-        this.nome=null;
-        this.qtd_HANoturno=0;
-        this.qtd_HoraAulaSemanal=0;
-        this.valor_HoraAula=0.0;
-    }
 
 }

@@ -7,7 +7,17 @@ public class Professor {
     String ctps;
     String nome;
     String formacao;
+    ContraCheque pagameto;
+    
     int dependentes;
+    
+    public void setPagamento(ContraCheque pag){
+        this.pagameto=pag;
+    }
+    
+    public ContraCheque getPagamento(){
+        return pagameto;
+    }
     
     public void setCTPS(String ctps){
         this.ctps=ctps;
@@ -33,5 +43,9 @@ public class Professor {
     }
     public String getFormacao(){
         return this.formacao;
+    }
+    
+    public int getDependetes(){
+        return dependentes;
     }
 }
